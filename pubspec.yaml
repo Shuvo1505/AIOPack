@@ -1,0 +1,51 @@
+name: aiopack
+description: Advance all in one tools and utility application.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fluttertoast: ^8.2.2
+  hexcolor: ^3.0.1
+  flutter_email_sender: ^5.0.1
+  flutter_rating_bar: ^4.0.1
+  shared_preferences: ^2.2.0
+  math_expressions: ^2.4.0
+  qr_flutter: ^4.1.0
+  path_provider: ^2.1.0
+  gallery_saver: ^2.3.2
+  crypto: ^3.0.3
+  audioplayers: ^1.2.0
+  flutter_compass: ^0.7.0
+  mobile_scanner: ^3.4.1
+  flutter_sensors: ^1.0.1
+  animated_text_kit: ^4.2.2
+  velocity_x: ^4.1.1
+  image_picker: ^1.0.4
+  scan: ^1.6.0
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: digital
+      fonts:
+        - asset: assets/fonts/digital-display.ttf
