@@ -3,7 +3,7 @@
 1) Please don't provide any wrong data during any calculation.
 2) Wrong data may causes unexpected / wrong output.
 ----------------------------------------------------------------------------------------------------------------------
-# Provided / In-Built Features
+# Provided / Built-in Features
 
 1) BMI Calculator
 2) BMR Calculator
