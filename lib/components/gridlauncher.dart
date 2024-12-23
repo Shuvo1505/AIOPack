@@ -6,7 +6,6 @@ import 'package:aiopack/screens/extras/passwordgenerator.dart';
 import 'package:aiopack/screens/extras/qrgenerator.dart';
 import 'package:aiopack/screens/extras/qrscanner.dart';
 import 'package:aiopack/screens/extras/stopwatch.dart';
-import 'package:aiopack/screens/extras/todolist.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -295,34 +294,6 @@ class _ExtrasPageState extends State<ExtrasPage> {
                                       width: 64,
                                     ),
                                     const Text("QR Generator",
-                                        style: TextStyle(
-                                            color: Colors.white, fontSize: 16))
-                                  ]))),
-                      InkWell(
-                          enableFeedback: true,
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) =>
-                                        const TODOPage(title: "TODO List")));
-                          },
-                          child: Container(
-                              height: 10,
-                              width: 10,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  color: HexColor("#1f1f1f")),
-                              child: Column(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
-                                  children: [
-                                    Image.asset(
-                                      "assets/images/todolist.png",
-                                      height: 64,
-                                      width: 64,
-                                    ),
-                                    const Text("TODO List",
                                         style: TextStyle(
                                             color: Colors.white, fontSize: 16))
                                   ]))),
