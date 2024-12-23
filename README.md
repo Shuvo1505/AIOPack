@@ -15,8 +15,7 @@
 8) Password Generator
 9) QR code scanner
 10) QR code generator
-11) TODO List
-12) Stopwatch
+11) Stopwatch
 ----------------------------------------------------------------------------------------------------------------------
 # Screenshots
 
